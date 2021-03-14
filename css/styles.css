@@ -1,0 +1,107 @@
+:root {
+  --main-text-color:#212121;
+  --main-bg-color:#fff;
+  --second-bg-color:#2F303A;
+}
+
+body {
+font-family: 'Roboto', 'Tahoma', 'Helvetica Neue','Verdana' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+background-color:var(--main-bg-color);
+}
+
+/*Шапка сайта*/  
+
+.logo {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+color: #2196F3;
+text-decoration: inherit;
+}
+
+.accent-white {color: white;}
+.accent-black {color: black;}
+
+.site-nav {}
+.site-nav-item {
+font-weight: 500;
+list-style-type: none;
+}
+
+.link {
+  list-style-type: none;
+}
+.link-item {color: #757575;}
+
+a { 
+    text-decoration: none;
+
+/*Портфолио*/
+.list {
+list-style-type: none;
+}
+
+.item, .list {
+list-style-type: none;
+}
+
+.visually-hidden {
+  clip: rect(1px 1px 1px 1px);
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+
+
+.portfolio-filter {
+font-size: 16px;
+line-height: 1.63;
+list-style-type: none;
+}
+
+
+
+p {
+font-size: 16px;
+line-height: 1.88;
+color: #757575;
+}
+
+h2, h3 {font-weight: 700;}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a:active, a:hover, a:focus {
+  color: #2196F3; 
+ }
+
+button:active {
+  color: white;
+  background-color: #2196F3;
+}
+/*Футер*/
+footer {background: var(--second-bg-color);}
+
+address {
+font-style: normal;
+color: #FFFFFF;
+font-size: 14px;
+line-height: 1.7;
+}
+
+
