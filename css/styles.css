@@ -29,10 +29,12 @@ text-decoration: inherit;
 .accent-white {color: white;}
 .accent-black {color: black;}
 
-.site-nav {}
+
 .site-nav-item {
 font-weight: 500;
 list-style-type: none;
+color: inherit;
+
 }
 
 .link {
@@ -41,14 +43,14 @@ list-style-type: none;
 .link-item {color: #757575;}
 
 a { 
-    text-decoration: none;
+    text-decoration: none;}
 
 /*Портфолио*/
 .list {
 list-style-type: none;
 }
 
-.item, .list {
+.site-nav, .item, .list {
 list-style-type: none;
 }
 
@@ -63,15 +65,11 @@ list-style-type: none;
   overflow: hidden;
 }
 
-
-
 .portfolio-filter {
 font-size: 16px;
 line-height: 1.63;
 list-style-type: none;
 }
-
-
 
 p {
 font-size: 16px;
@@ -79,12 +77,41 @@ line-height: 1.88;
 color: #757575;
 }
 
+h1 {font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color: white;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero {
+background: var( --second-bg-color);
+width: 1600px;
+height: 600px;}
+
 h2, h3 {font-weight: 700;}
 
 button {
   font-family: inherit;
   cursor: pointer;
 }
+
+.button-text {
+font-style: normal;
+font-weight: 500;
+}
+.button-order {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+color: #FFFFFF;
+background-color: #2196F3;
+text-align: center;
+}
+.team-section {background-color: #F5F4FA;;}
 
 a:active, a:hover, a:focus {
   color: #2196F3; 
