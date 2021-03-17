@@ -151,7 +151,7 @@ letter-spacing: 0.06em;
 
 .team-section {background-color: var(--team-bg-color);}
 
-/**/ button:focus, button:hover, button:active {
+button:focus, button:hover, button:active {
   background-color: var(--logo-button-color);
   color: var(--main-bg-text-color); 
   border-color: transparent;
@@ -160,11 +160,7 @@ letter-spacing: 0.06em;
   a:active, a:hover, a:focus {
     color: var(--logo-button-color);
   }
- {
-  color: var(--main-bg-text-color);
-  background-color: var(--logo-button-color);
-  border-color: transparent;
-}
+ 
 /*Футер*/
 footer {
   background-color:var(--second-bg-color);
