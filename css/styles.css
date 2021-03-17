@@ -85,13 +85,15 @@ list-style-type: none;
 
 p {
 font-size: 16px;
-line-height: 1.7;
+line-height: 1.9;
 color: var(--link-paragraph-color);
+letter-spacing: 0.03em;
 }
+
 
 h1 {font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 color:var(--main-bg-text-color);
 text-align: center;
 letter-spacing: 0.06em;
@@ -117,6 +119,7 @@ font-size: 16px;
 line-height: 1.19;
 }
 
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -140,16 +143,25 @@ background-color:var(--logo-button-color);
 text-align: center;
 }
 
+.portfolio-list-item {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
 .team-section {background-color: var(--team-bg-color);}
 
-a:active, a:hover, a:focus, button:focus, button:hover {
+/**/ button:focus, button:hover, button:active {
   background-color: var(--logo-button-color);
   color: var(--main-bg-text-color); 
   border-color: transparent;
   }
 
-button:active {
-  color: var(--main-bg-color);
+  a:active, a:hover, a:focus {
+    color: var(--logo-button-color);
+  }
+ {
+  color: var(--main-bg-text-color);
   background-color: var(--logo-button-color);
   border-color: transparent;
 }
@@ -170,4 +182,4 @@ line-height: 1.7;
   color: var(--link-footer);
   font-size: 14px;
   line-height: 1.71;
-}
+  }
